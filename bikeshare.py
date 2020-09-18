@@ -179,6 +179,8 @@ def trip_duration_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+    print('#'*40)
+
     
 def user_stats(df):
     """Displays statistics on bikeshare users."""
@@ -207,6 +209,7 @@ def user_stats(df):
     
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+    print('#'*40)
 
 def getdata(df):
     rawdata = 0
